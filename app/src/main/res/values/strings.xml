@@ -2,4 +2,5 @@
     <string name="app_name">SqLContactDatabase</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone_features"><![CDATA[>Qo\'sh kamera:12MP keng(asosiy) va ultrakeng;\n >Video yozuv: Dolby Vision HDR, 30 kadr/sekund;\n >Akkumulator avtonomligi: 17soat video tomoshasi;\n >Displey: Super Retina XDR, 6.1 dyuym;\n >Suvga chidamlilik:6 metr/30daqiqa;\n >Ekran rezolyutsiyasi:2532x1170(460 piksel\'dyum);\n >Xotira: 64/128/256GB;\n >Chip: A14 Bionic;\n >Korpus mahsuloti: alyuminiy;\n >Ranglar:ko\'k, yashil, qizil, oq, qora;\n >Narxi: 799 AQSH dollari.]]></string>
 </resources>

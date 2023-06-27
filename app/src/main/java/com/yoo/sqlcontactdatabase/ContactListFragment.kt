@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import androidx.navigation.ui.navigateUp
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.yoo.sqlcontactdatabase.database.ContactDatabase
 import com.yoo.sqlcontactdatabase.databinding.FragmentContactListBinding
@@ -48,6 +49,16 @@ class ContactListFragment : Fragment() {
             layoutManager=LinearLayoutManager(requireContext())
         }
         rvAdapter.contactList=database.getAllContact().toMutableList()
+
+
+        rvAdapter.setOnClickListener(
+            object : RvAdapter.OnClickListener{
+                override fun onClick(position: Int) {
+                    findNavController().navigate(R.id.action_contactListFragment_to_everyItemFragment)
+                }
+            }
+        )
+
     }
 
 

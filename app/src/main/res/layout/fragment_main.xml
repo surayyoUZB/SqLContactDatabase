@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:layout_margin="30dp"
+    android:layout_margin="50dp"
     tools:context=".MainFragment">
 
     <Button
@@ -14,16 +14,16 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginBottom="20dp"
-        android:text="Kontaktlar"
-        android:backgroundTint="#F44336"/>
+        android:text="Phones"
+        android:backgroundTint="#84F303"/>
 
     <Button
         android:id="@+id/btnAdd"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginBottom="20dp"
-        android:text="Kontakt qo`shish"
-        android:backgroundTint="#F44336"/>
+        android:text="Add phone"
+        android:backgroundTint="#84F303"/>
 
 
 </LinearLayout>

@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_contactListFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_contactListFragment_to_everyItemFragment"
+            app:destination="@id/everyItemFragment" />
     </fragment>
     <fragment
         android:id="@+id/mainFragment"
@@ -35,4 +38,9 @@
             android:id="@+id/action_mainFragment_to_addContactFragment"
             app:destination="@id/addContactFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/everyItemFragment"
+        android:name="com.yoo.sqlcontactdatabase.util.EveryItemFragment"
+        android:label="EveryItemFragment" />
+
 </navigation>
